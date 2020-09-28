@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KotlinMultiplatform">
@@ -158,13 +159,29 @@
       <option name="presentableId" value="Default" />
       <updated>1572482991570</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project updated:&#10;1. Start the Store Information Activity updated.&#10;2. Start the Google Maps Activity added.&#10;3. Start the Phone Activity added.&#10;4. Share a Candy with an Intent added.">
+      <created>1601336404925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601336404925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project updated:&#10;1. Start the Store Information Activity updated.&#10;2. Start the Google Maps Activity added.&#10;3. Start the Phone Activity added.&#10;4. Share a Candy with an Intent added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project updated:&#10;1. Start the Store Information Activity updated.&#10;2. Start the Google Maps Activity added.&#10;3. Start the Phone Activity added.&#10;4. Share a Candy with an Intent added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1209" y="325" key="AndroidCreateXmlResourceDialog" timestamp="1601334899219">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1209" y="325" key="AndroidCreateXmlResourceDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601334899219" />
+    <state x="421" y="0" key="CommitChangelistDialog2" timestamp="1601336400169">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="421" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1601336400169" />
     <state width="1846" height="242" key="GridCell.Tab.0.bottom" timestamp="1601332517342">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -181,6 +198,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1846" height="242" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601332517342" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1601336425150">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601336425150" />
     <state x="565" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1601328587841">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
