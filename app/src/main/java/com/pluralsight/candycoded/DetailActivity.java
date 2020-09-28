@@ -5,8 +5,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -71,4 +73,21 @@ public class DetailActivity extends AppCompatActivity {
     // ***
     // TODO - Task 4 - Share the Current Candy with an Intent
     // ***
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.share_detail:
+                share(SHARE_DESCRIPTION, HASHTAG_CANDYCODED);
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void share(String description, String hashTag){
+        Intent intent = new Intent(android.content.Intent.ACTION_SEND);
+        intent.putExtra(android.content.Intent.EXTRA_SUBJECT, hashTag);
+        intent.putExtra(android.content.Intent.EXTRA_TEXT, description);
+        intent.setType("text/plain");
+        startActivity(Intent.createChooser(intent, "Share with others via"));
+    }
 }

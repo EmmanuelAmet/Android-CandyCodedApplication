@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Candy Coded</string>
     <string name="products_title">Products</string>
+    <string name="call_candy_number">(012)345-6789</string>
+    <string name="candy_location_on_map">geo:0,0?q=618 E South St Orlando, FL 32801</string>
+    <string name="google_map_package_name">com.google.android.apps.maps</string>
 </resources>
