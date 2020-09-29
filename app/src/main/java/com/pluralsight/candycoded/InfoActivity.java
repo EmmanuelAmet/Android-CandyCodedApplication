@@ -49,7 +49,7 @@ public class InfoActivity extends AppCompatActivity {
 
     public void createPhoneIntent(View view) {
         Intent callIntent = new Intent(Intent.ACTION_CALL);
-        callIntent .setData(Uri.parse(getString(R.string.call_candy_number)));
+        callIntent .setData(Uri.parse("tel:0123456789"));
         startActivity(callIntent);
     }
 
