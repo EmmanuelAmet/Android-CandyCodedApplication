@@ -25,16 +25,6 @@ public class InfoActivity extends AppCompatActivity {
                 load(uri).
                 into(candyStoreImageView);
 
-        /*
-            The code below will execute when the user select text_view_phone (textView) and the Map will be launch
-         */
-        final TextView phone = findViewById(R.id.text_view_phone);
-        phone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                launchCallDial(getString(R.string.call_candy_number));
-            }
-        });
 
 
     }
@@ -56,6 +46,12 @@ public class InfoActivity extends AppCompatActivity {
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
+
+    public void createPhoneIntent(View view) {
+        Intent callIntent = new Intent(Intent.ACTION_CALL);
+        callIntent .setData(Uri.parse(getString(R.string.call_candy_number)));
+        startActivity(callIntent);
+    }
 
     private void launchCallDial(String call){
         startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + Uri.encode(call))));
