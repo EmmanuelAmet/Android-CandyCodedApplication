@@ -37,31 +37,21 @@ public class InfoActivity extends AppCompatActivity {
         });
 
 
-        /*
-            The code below will execute when the user select text_view_address (textView) and the Map will be launch
-         */
-        final TextView map = findViewById(R.id.text_view_address);
-        map.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                launchMap(getString(R.string.candy_location_on_map));
-            }
-        });
-
     }
 
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
 
-    private void launchMap(String location) {
-        Uri uri = Uri.parse(location);
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        intent.setPackage(getString(R.string.google_map_package_name));
-        if (intent.resolveActivity(getPackageManager()) != null){
-            startActivity(intent);
+    public void createMapIntent(View view) {
+        Uri uri = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, uri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        if (mapIntent.resolveActivity(getPackageManager())!= null){
+            startActivity(mapIntent);
         }
     }
+
 
     // ***
     // TODO - Task 3 - Launch the Phone Activity
